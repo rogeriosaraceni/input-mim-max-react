@@ -5,8 +5,7 @@ function App() {
    	<>
 			<section className="container m-4">
 				<form>
-      			<InputNumberMinMax />
-
+					<InputNumberMinMax />
 					<p>
 						<button type="submit" className='btn btn-primary'>Save</button>
 					</p>

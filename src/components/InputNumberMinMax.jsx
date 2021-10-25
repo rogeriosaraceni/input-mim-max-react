@@ -33,18 +33,16 @@ export default function InputNumberMinMax() {
       	<input 
 				id="inputNumber"
 				type="text"
-				name="my-number"
+				name="my-inputNumber"
 				className="form-control"
-				min="7"
-				max="20"
 				value={value}
 				onChange={handleOnChange}
 				onBlur={handleOnBlur}
 				required
 			/>
-			<small className="d-block text-danger" id="alert-inputNumber" style={{height: "30px"}}></small>
+			<small className="d-block text-danger" id="alert-inputNumber" style={{height: "20px"}}></small>
 
-			<p className="mt-2">
+			<p>
 				<strong>Valor Digitado: </strong> 
 				<span className="text-primary">{value}</span>
 			</p>
